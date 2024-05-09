@@ -1,0 +1,38 @@
+[
+  {
+        "objects": [
+            "elephant",
+            "zebra"
+        ],
+        "relationships": [
+            [
+                0,
+                "above",
+                1
+            ],
+            [
+                1,
+                "below",
+                2
+            ]
+        ],
+        "attributes": {
+            "size": [
+                0,
+                0,
+                2
+            ],
+            "location": [
+                2,
+                22,
+                6
+            ]
+        },
+        "features": [
+            -1,
+            -1,
+            -1
+        ],
+        "image_id": "sky-other_grass_zebra_0_0_2_2_22_6"
+    }
+]
