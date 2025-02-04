@@ -1,0 +1,121 @@
+[
+  {
+    "story": "Atop a gentle hill, an elephant was standing , watching the sunset paint the sky in hues of orange and purple. The Elephant, feeling playful, leapt down the hill towards the other elephant, inviting it to enjoy the beautiful evening together as they grazed side by side.",
+  "title": "The Thoughtful Elephant",
+    "objects": ["elephant"],
+  "relationships": [],
+  "attributes": {
+    "size": [1],
+    "location": [5]
+  },
+  "features": [0],
+  "image_id": "elephant_1"
+},
+  {
+    "story": "Early in the morning, zebras was walking , navigating through the dense forest. They were on a quest to find the legendary watering hole said to never dry up. As they moved through the forest, their steps synchronized, they shared stories of past adventures and dreamed of lush greenery awaiting them.",
+   "title": "The Zebra Journey",
+    "objects": ["zebra"],
+  "relationships": [],
+  "attributes": {
+    "size": [0],
+    "location": [15]
+  },
+  "features": [-1],
+  "image_id": "zebra_0"
+},
+  {
+    "story": "Beneath a clear starry night, an elephant was standing right of sheep, which had climbed a small rocky ledge. Amused by the sheep's bravery, the elephant promised to catch her if she decided to jump. The sheep, trusting her large friend, jumped into the waiting trunk, and they chuckled under the twinkling sky.",
+   "title": "Elephant Starry Night Rescue",
+    "objects": ["sheep", "elephant"],
+  "relationships": [[1, "right of", 0]],
+  "attributes": {
+    "size": [0, 0],
+    "location": [10, 13]
+  },
+  "features": [-1, -1],
+  "image_id": "elephant_sheep_1_0"
+},
+  {
+    "story": "On a brisk spring morning, a sheep was walking left of the zebra, challenging it to a race across the dew-covered meadow. Eager to prove its speed, the zebra accepted, and they dashed through the tall grass, laughter echoing in the air, racing towards the rising sun.",
+   "title": "Sheep and Zebra Race",
+    "objects": ["sheep", "zebra"],
+  "relationships": [[0, "left of", 1]],
+  "attributes": {
+    "size": [0, 0],
+    "location": [10, 13]
+  },
+  "features": [-1, 1],
+  "image_id": "sheep_zebra_0_1"
+},
+  {
+    "story": "In a village, an elephant was standing right of the sheep. They were the stars of the traveling circus, known for their remarkable tricks and friendship. Children and adults alike clapped with joy as the trio performed their signature pyramid ac",
+   "title": "The Elephant",
+    "objects": ["sheep", "elephant"],
+  "relationships": [[0, "right of", 1]],
+  "attributes": {
+    "size": [0, 0],
+    "location": [13, 10]
+  },
+  "features": [-1, 1],
+  "image_id": "zebra_elephant_1_1"
+},
+  {
+  "story": "In the local village, an elephant was standing below the sheep. They were the stars of the traveling circus, known for their remarkable tricks and friendship. Children and adults alike clapped with joy as the trio performed their signature pyramid ac",
+  "title": "Circus Stars Elephant Sheep ",
+  "objects": ["elephant", "sheep"],
+  "relationships": [[1, "below", 0]],
+  "attributes": {
+    "size": [0, 1],
+    "location": [4, 16]
+  },
+  "features": [0, 0],
+  "image_id": "sheep_elephant_0_1"
+},
+  {
+     "story": "Deep in the heart of the forest, a zebra was standing right of the sheep. They played a game of whispers, each one passing secrets of the forest through the rustling leaves, bonding over the stories only they knew.",
+    "title": "Forest Whispers with Zebra",
+    "objects": ["sheep", "zebra"],
+  "relationships": [[1, "right of", 0]],
+  "attributes": {
+    "size": [1, 0],
+    "location": [10, 13]
+  },
+  "features": [1, -1],
+  "image_id": "zebra_sheep_1_0"
+},
+  {
+  "story" : "During a lively afternoon, a sheep was running right of the zebra, which was walking left of the elephant. The three friends had invented a new game of tag that involved zigzagging through the savannah, their playful shouts filling the air and drawing smiles from all who watched.",
+   "title": "Savannah Tag Sheep Zebra Elephant",
+    "objects": ["sheep", "elephant", "zebra"],
+  "relationships": [[0, "right of", 2], [1, "left of", 2]],
+  "attributes": {
+    "size": [0, 0, 0],
+    "location": [18, 2, 7]
+  },
+  "features": [-1, -1, -1],
+  "image_id": "elephant_sheep_zebra_1_0_0"
+},
+  { "story": "On a particularly hot day, an elephant was standing below the sheep and elephant was standing right of the zebra. Seeking refuge from the sun, they gathered under the largest tree they could find. As they cooled off, the zebra narrated tales of distant lands, with the sheep adding witty remarks and the elephant nodding in rhythm.",
+ "title": "Elephant Tale Under Shade",
+  "objects": ["elephant", "sheep", "zebra"],
+  "relationships": [[2, "right of", 0], [0, "below", 1]],
+  "attributes": {
+    "size": [0, 1, 1],
+    "location": [18, 2, 7]
+  },
+  "features": [-1, 1, 1],
+  "image_id": "zebra_elephant_sheep_0_1_1"
+},
+{
+  "story": "Near a serene lake, a zebra was standing left of the elephant, which was standing above the sheep lounging in the cool mud. The zebra and elephant decided to join the sheep, slowly settling into the mud. Together, they spent the afternoon in peaceful silence, enjoying each other's company and the coolness of the lake's breeze.",
+ "title": "Zebra Lakeside Peace",
+  "objects": ["sheep", "elephant", "zebra"],
+"relationships": [[2, "left of", 1], [2, "above", 0]],
+"attributes": {
+"size": [0, 0, 0],
+"location": [16, 6, 2]
+},
+"features": [1, -1, 1],
+"image_id": "sheep_zebra_elephant_1_0_1"
+}
+]
